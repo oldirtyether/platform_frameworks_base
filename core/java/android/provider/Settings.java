@@ -5515,15 +5515,6 @@ public final class Settings {
                ANY_INTEGER_VALIDATOR;
 
         /**
-         ** Statusbar logo Color
-         ** @hide
-         **/
-         public static final String STATUS_BAR_LOGO_COLOR = "status_bar_logo_color";
-         /** @hide */
-         private static final Validator STATUS_BAR_LOGO_COLOR_VALIDATOR =
-                ANY_INTEGER_VALIDATOR;
-
-        /**
          * @hide
          */
         public static final String USE_OLD_MOBILETYPE = "use_old_mobiletype";
@@ -5845,7 +5836,6 @@ public final class Settings {
             STATUS_BAR_BATTERY_TEXT_CHARGING,
             STATUS_BAR_LOGO,
             STATUS_BAR_LOGO_STYLE,
-            STATUS_BAR_LOGO_COLOR,
             LOCKSCREEN_MEDIA_METADATA,
             LOCKSCREEN_MEDIA_BLUR,
             ENABLE_CONDITIONS,
@@ -6262,7 +6252,6 @@ public final class Settings {
             VALIDATORS.put(STATUS_BAR_BATTERY_TEXT_CHARGING, STATUS_BAR_BATTERY_TEXT_CHARGING_VALIDATOR);
             VALIDATORS.put(STATUS_BAR_LOGO, STATUS_BAR_LOGO_VALIDATOR);
             VALIDATORS.put(STATUS_BAR_LOGO_STYLE, STATUS_BAR_LOGO_STYLE_VALIDATOR);
-            VALIDATORS.put(STATUS_BAR_LOGO_COLOR, STATUS_BAR_LOGO_COLOR_VALIDATOR);
             VALIDATORS.put(LOCKSCREEN_MEDIA_METADATA, LOCKSCREEN_MEDIA_METADATA_VALIDATOR);
             VALIDATORS.put(LOCKSCREEN_MEDIA_BLUR, LOCKSCREEN_MEDIA_BLUR_VALIDATOR);
             VALIDATORS.put(ENABLE_CONDITIONS, ENABLE_CONDITIONS_VALIDATOR);
