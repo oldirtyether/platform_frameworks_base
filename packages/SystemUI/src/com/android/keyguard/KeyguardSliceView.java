@@ -196,6 +196,7 @@ public class KeyguardSliceView extends LinearLayout implements View.OnClickListe
 
     public void setRowPadding(int left, int top, int right, int bottom) {
         mRow.setPadding(left, top, right, bottom);
+    }
 
     private int getLockDateSize() {
         return Settings.System.getInt(mContext.getContentResolver(),
